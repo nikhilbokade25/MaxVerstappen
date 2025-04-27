@@ -16,11 +16,7 @@
     margin-top: 80px;
 }
 
-.about_stats{
-    width: 100%;
-    height: 100vh;
-    background-color: lightyellow;
-}
+
 
 .info_container{
     width: 50%;
@@ -68,7 +64,146 @@
     font-size: 17px;
 }
 
+.about_stats {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .stats_container {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: "Lexend",sans-serif;
+  }
+  
+  .stat_box {
+    width: 30%;
+    background-color: rgb(229, 228, 228);
+    border: 2px solid #333;
+    border-radius: 8px;
+    position: relative;
+    padding-top: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .stat_heading {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    background-color: rgb(229, 228, 228);
+    padding: 5px 15px;
+    font-weight: bold;
+    border: 2px solid #333;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .stat_content {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .general_image{
+    width: 100%;
+    height: 35vh;
+    background-color: red;
+  }
+
+  .general_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .general_hr{
+    margin-top: 20px;
+    height: 1px;
+    background-color: black;
+  }
+
+  .general_stat h3, p{
+        text-align: left;
+        
+  }
+
+  .general_stat h3{
+    font-size: 33px;
+  }
+
+  .general_stat p{
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  .stats_box hr{
+    margin-top: -1px;
+  }
+
+  .stats_box h3{
+    text-align: left;
+    font-size: 30px;
+  }
+
+  .stats_box p{
+    font-size: 27px;
+    margin-top: 15px;
+  }
+
+  .stats_box hr:nth-of-type(2),
+  .stats_box hr:nth-of-type(3),
+  .stats_box hr:nth-of-type(4){
+    margin-top: 40px;
+  }
+
+  .racing_info hr{
+    height: 1px;
+    background-color: black;
+  }
+
+  .racing_image{
+    width: 100%;
+    height: 15vh;
+    margin-top: 20px;
+  }
+
+  .racing_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .box_3_stat h3{
+    font-size: 27px;
+    text-align: left;
+  }
+
+  .box_3_stat p{
+    font-size: 27px;
+  }
+
+  .box_3_stat hr:nth-of-type(2),
+  .box_3_stat hr:nth-of-type(3){
+    margin-top: 40px;
+  }
+
+  .box_3_stat p:nth-of-type(1),
+  .box_3_stat p:nth-of-type(2){
+    margin-top: 20px;
+  }
+  
+
 @media (max-width:768px){
+    .about_container{
+        height: auto;
+    }
+
+    .about_stats{
+        height: auto;
+    }
     .info_container{
         width: 90%;
         height: auto;
@@ -102,5 +237,19 @@
     }
    
 
+    .stats_container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+    }
+    
+      .stat_box {
+        width: 100%;
+    }
+
+    .stat_box:nth-child(2),
+    .stat_box:nth-child(3) {
+    margin-top: 40px; 
+}
 
 }
