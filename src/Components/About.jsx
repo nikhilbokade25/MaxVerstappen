@@ -48,7 +48,7 @@ export default function About(){
                 ease: 'power2.out',
                 scrollTrigger: {
                   trigger: '.about_stats',
-                  start: 'top 70%', // adjust as you like
+                  start: 'top 70%', 
                   end: 'bottom 60%',
                   scrub: true,
                 },
