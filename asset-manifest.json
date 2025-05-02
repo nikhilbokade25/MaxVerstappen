@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MaxVerstappen/static/css/main.7141f897.css",
+    "main.js": "/MaxVerstappen/static/js/main.5c643c3c.js",
+    "static/js/453.0655beb0.chunk.js": "/MaxVerstappen/static/js/453.0655beb0.chunk.js",
+    "static/media/heroVideo.mp4": "/MaxVerstappen/static/media/heroVideo.1d0d1dd990f89d69c916.mp4",
+    "static/media/redbullCar1.jpg": "/MaxVerstappen/static/media/redbullCar1.f5acd2899e8a4b07377a.jpg",
+    "static/media/maxRacing.jpg": "/MaxVerstappen/static/media/maxRacing.8196ba225436a5dc0792.jpg",
+    "static/media/maxTraining.jpg": "/MaxVerstappen/static/media/maxTraining.6e2ea7833abf10e4a075.jpg",
+    "static/media/maxVerstappen.jpg": "/MaxVerstappen/static/media/maxVerstappen.e84cf6d3114302a144a8.jpg",
+    "static/media/maxGeneralimg.jpg": "/MaxVerstappen/static/media/maxGeneralimg.1771757c6ba819f0e54b.jpg",
+    "static/media/maxOffSeason.jpg": "/MaxVerstappen/static/media/maxOffSeason.e1520e8c32f13f241278.jpg",
+    "static/media/maxPreparation.jpg": "/MaxVerstappen/static/media/maxPreparation.bb6d42b66409349b708b.jpg",
+    "static/media/redbullLogo.jpg": "/MaxVerstappen/static/media/redbullLogo.aa77f80d1c1102f4e7ad.jpg",
+    "static/media/logo.svg": "/MaxVerstappen/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/MaxVerstappen/index.html",
+    "main.7141f897.css.map": "/MaxVerstappen/static/css/main.7141f897.css.map",
+    "main.5c643c3c.js.map": "/MaxVerstappen/static/js/main.5c643c3c.js.map",
+    "453.0655beb0.chunk.js.map": "/MaxVerstappen/static/js/453.0655beb0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7141f897.css",
+    "static/js/main.5c643c3c.js"
+  ]
+}
