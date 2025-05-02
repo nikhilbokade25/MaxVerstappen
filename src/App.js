@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import About from './Components/About';
 import HorizontalScrolling from './Components/HorizontalScrolling';
 import Outro from './Components/Outro';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <HorizontalScrolling/>
       <Outro/>
+      <Footer/>
     </div>
   );
 }
